@@ -1,16 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Eduardo Ryo Tamaki
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I am a Research Fellow and a Doctoral Researcher at the German Institute for Global and Area Studies (GIGA), a Research Associate at the Central European University (CEU) Democracy Institute, and a Doctoral Candidate at the University of Erfurt. I am also a lecturer at the University of Hamburg, and one of the founders of Team Populism’s Young Scholars Initiative (OPUS). My research interests are on quantitative methods, more specifically causal inference, machine learning, and political behavior and public opinion research. My current work focuses on exploring different ways to use Large Language Models (LLMs) and Generative AI to further advance and improve public opinion research. 
