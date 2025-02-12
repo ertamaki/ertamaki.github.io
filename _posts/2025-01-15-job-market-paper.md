@@ -6,7 +6,7 @@ tags: [papers]
 comments: true
 ---
 
-##The Generative Counterfactual Framework: Harnessing AI to Explore Alternative Realities in Public Opinion Research##
+#The Generative Counterfactual Framework: Harnessing AI to Explore Alternative Realities in Public Opinion Research#
 
 **Abstract**
 
