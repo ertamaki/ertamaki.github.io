@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Job Market Paper
-subtitle: The Generative Counterfactual Framework: Harnessing AI to Explore Alternative Realities in Public Opinion Research
 tags: [papers]
 comments: true
 ---
