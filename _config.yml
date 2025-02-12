@@ -9,7 +9,6 @@ author: Eduardo Ryo Tamaki
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
   Publications: "publications"
   CV: "https://drive.google.com/file/d/1sVNyaVkGwysVRkW2zCs2dVlGPe-jU-Kf/view?usp=sharing"
   Resources:
