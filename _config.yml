@@ -11,9 +11,10 @@ author: Eduardo Ryo Tamaki
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://tamaki.ai"
+    - ResearchGate: "https://www.researchgate.net/profile/Eduardo-Ryo-Tamaki"
+    - Google Scholar: "https://scholar.google.com/citations?user=SFUk2OQAAAAJ&hl=en"
+    - GIGA: "https://www.giga-hamburg.de/de/das-giga/team/eduardo-tamaki"
+    - CEU: "https://globalforum.ceu.edu/eduardo-ryo-tamaki/"
 
 # --- Logo --- #
 
