@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Job Market Paper
+subtitle: 
 tags: [papers]
 comments: true
 ---
