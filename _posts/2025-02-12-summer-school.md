@@ -10,7 +10,7 @@ comments: true
 
 I'm excited to announce that I'll be teaching a course on AI at this year's **MethodsNET Summer School** at Central European University (CEU) in Vienna, Austria!
 
-**Course Title:** Artificial Intelligence: From Theory to Practice
+**Course Title:** Artificial Intelligence: From Theory to Practice \
 **Dates:** July 07 - July 11
 
 Join us for an intensive exploration of AI technologies and their applications in social science research. This cutting-edge course bridges theoretical foundations with practical implementation, empowering researchers to integrate AI tools into their scholarly work.
