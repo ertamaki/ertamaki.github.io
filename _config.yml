@@ -10,12 +10,13 @@ author: Eduardo Ryo Tamaki
 
 navbar-links:
   About Me: "aboutme"
+  Publications: "publications"
+  CV: "https://drive.google.com/file/d/1sVNyaVkGwysVRkW2zCs2dVlGPe-jU-Kf/view?usp=sharing"
   Resources:
     - ResearchGate: "https://www.researchgate.net/profile/Eduardo-Ryo-Tamaki"
     - Google Scholar: "https://scholar.google.com/citations?user=SFUk2OQAAAAJ&hl=en"
     - GIGA: "https://www.giga-hamburg.de/de/das-giga/team/eduardo-tamaki"
     - CEU: "https://globalforum.ceu.edu/eduardo-ryo-tamaki/"
-  CV: "https://drive.google.com/file/d/1sVNyaVkGwysVRkW2zCs2dVlGPe-jU-Kf/view?usp=sharing"
 
 # --- Logo --- #
 
