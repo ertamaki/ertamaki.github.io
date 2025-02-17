@@ -2,6 +2,8 @@
 layout: post
 title: MethodsNET Summer School - AI Course
 subtitle: 
+thumbnail-img: /assets/img/thumb2.png
+cover-img: /assets/img/path2.jpg
 tags: [announcement]
 comments: true
 ---
