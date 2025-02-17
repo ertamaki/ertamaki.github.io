@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Job Market Paper
+title: Job Market Paper - The Generative Counterfactual Framework
 subtitle: 
 tags: [papers]
 comments: true
