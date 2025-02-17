@@ -2,6 +2,7 @@
 layout: post
 title: Teaching at the 2024 MethodsNET Workshop on Research Methods Teaching Community of Practice
 subtitle: 
+thumbnail-img: 
 cover-img: /assets/img/path3.png
 tags: [posts]
 comments: true
