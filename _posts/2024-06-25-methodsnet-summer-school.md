@@ -2,9 +2,7 @@
 layout: post
 title: Participating in the 2024 MethodsNET Summer School
 subtitle: 
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb1.png
 tags: [posts]
 comments: true
 ---
