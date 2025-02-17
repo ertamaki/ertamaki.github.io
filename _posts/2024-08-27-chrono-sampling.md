@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working Paper: Chrono-sampling 
+title: Working Paper - Chrono-sampling 
 subtitle: 
 tags: [papers]
 comments: true
