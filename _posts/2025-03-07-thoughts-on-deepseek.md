@@ -2,7 +2,7 @@
 layout: post
 title: Behind DeepSeek's Rise
 subtitle: The Amazing, Troubling Truth Behind AI’s Latest Boom
-thumbnail-img: /assets/img/path4.jpg
+cover-img: /assets/img/path4.jpg
 tags: [posts]
 comments: true
 ---
