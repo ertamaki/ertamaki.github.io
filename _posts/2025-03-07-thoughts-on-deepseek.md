@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Behind DeepSeek’s Rise - The Amazing, Troubling Truth Behind AI’s Latest Boom
-subtitle: 
+title: Behind DeepSeek's Rise
+subtitle: The Amazing, Troubling Truth Behind AI’s Latest Boom
 tags: [papers]
 comments: true
 ---
-
-# Behind DeepSeek’s Rise: The Amazing, Troubling Truth Behind AI’s Latest Boom
 
 With the launch of DeepSeek-R1 (DeepSeek’s reasoning model), the AI world witnessed a seismic shift. DeepSeek skyrocketed past ChatGPT, taking the No. 1 spot on the free app download charts in the U.S. Almost immediately, U.S. stock markets reacted: Nvidia and OpenAI-linked stocks dipped significantly on January 27, as investors worried that OpenAI might be overvalued. Why? Because DeepSeek, a Chinese startup, managed to build a model rivaling OpenAI’s top-tier AI at a fraction of the cost, using only 2,000 Nvidia H800 chips for training[¹](https://asiatimes.com/2025/02/china-connects-everything-to-deepseek-in-nationwide-plan/).
 DeepSeek’s explosion in popularity was just the beginning. China is now connecting DeepSeek to everything: from Baidu’s chatbot and Tencent’s Weixin messaging app to Huawei’s cloud services and even smart vehicles made by BYD and Geely[²](https://asiatimes.com/2025/02/china-connects-everything-to-deepseek-in-nationwide-plan/#:~:text=China%20now%20connects%20everything,integrate%20with%20DeepSeek%2DR1.). The result? A growing ecosystem of AI-powered Chinese tech, all tied into DeepSeek.
