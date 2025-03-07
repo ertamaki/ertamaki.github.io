@@ -8,12 +8,10 @@ comments: true
 
 # Behind DeepSeek’s Rise: The Amazing, Troubling Truth Behind AI’s Latest Boom
 
-<div style="text-align: justify;">
 With the launch of DeepSeek-R1 (DeepSeek’s reasoning model), the AI world witnessed a seismic shift. DeepSeek skyrocketed past ChatGPT, taking the No. 1 spot on the free app download charts in the U.S. Almost immediately, U.S. stock markets reacted: Nvidia and OpenAI-linked stocks dipped significantly on January 27, as investors worried that OpenAI might be overvalued. Why? Because DeepSeek, a Chinese startup, managed to build a model rivaling OpenAI’s top-tier AI at a fraction of the cost, using only 2,000 Nvidia H800 chips for training[¹](https://asiatimes.com/2025/02/china-connects-everything-to-deepseek-in-nationwide-plan/).
 DeepSeek’s explosion in popularity was just the beginning. China is now connecting DeepSeek to everything: from Baidu’s chatbot and Tencent’s Weixin messaging app to Huawei’s cloud services and even smart vehicles made by BYD and Geely[²](https://asiatimes.com/2025/02/china-connects-everything-to-deepseek-in-nationwide-plan/#:~:text=China%20now%20connects%20everything,integrate%20with%20DeepSeek%2DR1.). The result? A growing ecosystem of AI-powered Chinese tech, all tied into DeepSeek.
 DeepSeek proudly touts its “open-weight” nature — meaning that its core model weights are publicly available — while claiming performance on par with OpenAI’s reasoning models (o1 and o3), despite significantly lower training costs. But here’s the big question: Is DeepSeek truly a breakthrough, or is all this hype overstated? Let’s dig in.
 After capturing headlines and shaking up the tech ecosystem, the real measure of DeepSeek R1’s impact lies in its technical performance. Positioned as a direct competitor to OpenAI’s reasoning models — specifically, o1 and o3 — DeepSeek now faces the challenge of proving that its groundbreaking claims hold up under rigorous testing. So, let’s take a closer look at the benchmark data.
-</div>
 
 | Benchmark                      | DeepSeek R1[³](https://arxiv.org/pdf/2501.12948) | OpenAI o3-mini (high reasoning)[⁴](https://openai.com/index/openai-o3-mini/) |
 | :----------------------------- | :---------: | :-----------------------------: |
@@ -25,7 +23,6 @@ After capturing headlines and shaking up the tech ecosystem, the real measure of
 | **Math-500 (Pass@1)**          | 97.3%       | 97.9%                           |
 | **SimpleQA**                   | 30.1%       | 13.8%                           |
 
-<div style="text-align: justify;">
 On math and coding, DeepSeek R1 is neck-and-neck with OpenAI’s o3-mini-high. OpenAI edges it out in AIME (math competition problems), GPQA Diamond (question-answering), and Codeforces (competitive programming rankings). Yet, DeepSeek outperforms in areas like MMLU (knowledge-based reasoning) and SimpleQA (quick factual recall).
 So, does this mean OpenAI’s o3 is unequivocally better? Not really. Benchmarks aren’t everything, and in real-world use cases, these differences might be negligible for most users. The reality is that both models are excellent reasoning AIs and for the average user, whether using ChatGPT (o3-mini) or DeepSeek’s R1, the experience will likely feel very similar (not talking here about using their APIs).
 While these benchmarks show that DeepSeek R1 holds its own against OpenAI’s reasoning models —d elivering comparable performance for everyday users — the numbers only tell part of the story. Beneath its impressive technical prowess lies a deeper, more complex reality: one where questions of data privacy, transparency, and state-imposed censorship come to the forefront. As we transition from the raw performance metrics to the ethical and political dimensions, it becomes clear that the true impact of DeepSeek isn’t just about its reasoning capabilities but also about how much freedom, trust, and openness you can actually expect from an AI system developed under stringent regulatory oversight.
@@ -73,4 +70,3 @@ Times of AI. "DeepSeek to Open-Source AGI Research Amid Privacy Concerns." 2025.
 The Arabian Post. "DeepSeek to Release Five Open-Source Repositories, Enhancing AI Transparency." 2025. \
 The Law Reporters. "DeepSeek AI App Sparks Global Concerns Over Data Privacy". 2025. \
 Zartis Team. "DeepSeek-R1: The Open-Source AI Challenger Rewriting the Rules of Enterprise AI." 2025. \
-</div>
