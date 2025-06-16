@@ -18,4 +18,4 @@ We also built a quick RAG-based chatbot for the Hungarian Parliament, joined by 
 
 We’re happy to share that our team placed 3rd in the competition. More soon :) 
 
-![Our team at the AI1Science Hackathon. Credits: HUN-REN/DKP](assets/img/hackathon-photo.jpg)
+![Our team at the AI1Science Hackathon. Credits: HUN-REN/DKP](/assets/img/hackathon-photo.jpg)
