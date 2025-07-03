@@ -14,7 +14,9 @@ Some really good news: our paper "*Chrono-Sampling: Generative AI Enabled Time M
 
 MethodsNET is one of the biggest and most exciting methods conferences in the social sciences—so this means a lot.
 
-I co-wrote the paper with my good friend and collaborator [**Levente Littvay**](https://levente.littvay.hu/). The idea was born, fittingly, after the 2024 edition of the MethodsNET 3SRM Summer School in Nijmegen. I had just taken a course on AI for Political Analysis with Ethan Busby (BYU). At the end of the course, we had to pitch a research idea. I remember standing in the rain, waiting for the bus, when I turned to Levi and said: “So… Listen, what if we do this…”
+I co-wrote the paper with my good friend and collaborator [**Levente Littvay**](https://levente.littvay.hu/). The idea was born, fittingly, after the 2024 edition of the MethodsNET 3SRM Summer School in Nijmegen. I had just taken a course on AI for Political Analysis with Ethan Busby (BYU). 
+At the end of the course, we had to pitch a research idea. I remember standing in the rain, waiting for the bus, when I turned to Levi and said: “So… Listen, what if we do this…”
+
 We spent the next few days brainstorming. A few weeks later, when I was back in Hamburg,  we locked in and started building the first version of what would become Chrono-sampling. Fast-forward to the end of the year, we presented our paper at the MethodsNET conference :) 
 
 
