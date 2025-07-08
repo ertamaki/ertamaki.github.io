@@ -41,6 +41,7 @@ permalink: /interactive/
 </div>
 
 <div id="result" style="text-align:center; font-weight:bold; font-size:1.5em;"></div>
+
 <div style="text-align:center; margin-top:10px;">
   <button id="reset-button" class="hidden">Return</button>
 </div>
@@ -72,4 +73,3 @@ permalink: /interactive/
     });
   });
 </script>
-
