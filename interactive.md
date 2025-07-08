@@ -18,14 +18,22 @@ permalink: /interactive/
   text-align: center;
   flex: 1;
 }
+.interactive-box img {
+  max-width: 100%;
+  height: auto;
+}
 .hidden {
   display: none;
 }
 </style>
 
 <div class="interactive-container">
-  <div id="box-left" class="interactive-box">Left</div>
-  <div id="box-right" class="interactive-box">Right</div>
+  <div id="box-left" class="interactive-box">
+    <img src="/assets/img/profileA.png" alt="Profile A">
+  </div>
+  <div id="box-right" class="interactive-box">
+    <img src="/assets/img/profileB.png" alt="Profile B">
+  </div>
 </div>
 
 <div id="result" style="text-align:center; font-weight:bold; font-size:1.5em;"></div>
