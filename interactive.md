@@ -25,6 +25,10 @@ permalink: /interactive/
 .hidden {
   display: none;
 }
+#reset-button {
+  padding: 10px 20px;
+  font-size: 1em;
+}
 </style>
 
 <div class="interactive-container">
@@ -38,21 +42,34 @@ permalink: /interactive/
 
 <div id="result" style="text-align:center; font-weight:bold; font-size:1.5em;"></div>
 
+<div style="text-align:center; margin-top:10px;">
+  <button id="reset-button" class="hidden">Return</button>
+</div>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const left = document.getElementById('box-left');
     const right = document.getElementById('box-right');
     const result = document.getElementById('result');
+    const resetButton = document.getElementById('reset-button');
 
     left.addEventListener('click', function() {
       right.classList.add('hidden');
       result.textContent = 'LEFT';
+      resetButton.classList.remove('hidden');
     });
 
     right.addEventListener('click', function() {
       left.classList.add('hidden');
       result.textContent = 'RIGHT';
+      resetButton.classList.remove('hidden');
+    });
+
+    resetButton.addEventListener('click', function() {
+      left.classList.remove('hidden');
+      right.classList.remove('hidden');
+      result.textContent = '';
+      resetButton.classList.add('hidden');
     });
   });
 </script>
-
