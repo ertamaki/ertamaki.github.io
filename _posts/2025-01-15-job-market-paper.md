@@ -14,5 +14,4 @@ This paper introduces the Generative Counterfactual Framework (GCM), a novel met
 
 **Keywords:** *Counterfactual Analysis*, *Public Opinion*, *Large Language Models*, *Synthetic Populations*, *Causal Inference*.
 
-[Full paper.](https://drive.google.com/file/d/1AwGpOQKDsPK90lvMPKso6xCkv_DE3aqe/view?usp=sharing)
-
+Full Paper: *SOON* (preparing 2nd version).
