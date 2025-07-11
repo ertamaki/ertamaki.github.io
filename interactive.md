@@ -58,16 +58,12 @@ permalink: /interactive/
     const widgetContainer = document.getElementById('widget-container');
 
     function loadWidget() {
-      widgetContainer.innerHTML = 
-        '<elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>';
+      // Use the original ElevenLabs embed approach
+      widgetContainer.innerHTML = `
+        <elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>
+        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"><\/script>
+      `;
       widgetContainer.classList.remove('hidden');
-      
-      // Give the DOM a moment to update, then mount the widget
-      setTimeout(() => {
-        if (window.ElevenLabsConvai?.mountAll) {
-          window.ElevenLabsConvai.mountAll();
-        }
-      }, 100);
     }
 
     function handleLeftChoice() {
@@ -98,11 +94,9 @@ permalink: /interactive/
     right.addEventListener('click', handleRightChoice);
     resetButton.addEventListener('click', reset);
 
-    // Keyboard support
     left.addEventListener('keypress', e => { if (e.key === 'Enter') handleLeftChoice(); });
     right.addEventListener('keypress', e => { if (e.key === 'Enter') handleRightChoice(); });
   });
 </script>
 
-<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
