@@ -57,13 +57,26 @@ permalink: /interactive/
     const resetButton = document.getElementById('reset-button');
     const widgetContainer = document.getElementById('widget-container');
 
+    let widgetInitialized = false;
+
     function loadWidget() {
       widgetContainer.innerHTML = '<elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>';
-      const script = document.createElement('script');
-      script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
-      script.type = 'text/javascript';
-      script.async = true;
-      document.body.appendChild(script);
+    
+      if (!widgetInitialized) {
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
+        script.type = 'text/javascript';
+        script.async = true;
+        script.onload = () => {
+          widgetInitialized = true;
+        };
+        document.body.appendChild(script);
+      } else {
+        // Re-initialize manually if needed
+        if (window.ElevenLabsConvai && window.ElevenLabsConvai.mountAll) {
+          window.ElevenLabsConvai.mountAll();
+        }
+      }
     }
 
     function handleLeftChoice() {
