@@ -36,7 +36,9 @@ permalink: /interactive/
 <div class="interactive-container">
   <div id="box-left" class="interactive-box" role="button" tabindex="0" aria-label="Choose Left Option">
     <img src="/assets/img/profileA.png" alt="Profile A">
-    <div id="widget-container" class="hidden"></div>
+    <div id="widget-container" class="hidden">
+      <elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>
+    </div>
   </div>
   <div id="box-right" class="interactive-box" role="button" tabindex="0" aria-label="Choose Right Option">
     <img src="/assets/img/profileB.png" alt="Profile B">
@@ -57,35 +59,23 @@ permalink: /interactive/
     const resetButton = document.getElementById('reset-button');
     const widgetContainer = document.getElementById('widget-container');
 
-    function loadWidget() {
-      // Use the original ElevenLabs embed approach
-      widgetContainer.innerHTML = `
-        <elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>
-        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"><\/script>
-      `;
-      widgetContainer.classList.remove('hidden');
-    }
-
     function handleLeftChoice() {
       right.classList.add('hidden');
       result.textContent = 'LEFT';
       resetButton.classList.remove('hidden');
-      loadWidget();
+      widgetContainer.classList.remove('hidden');
     }
 
     function handleRightChoice() {
       left.classList.add('hidden');
       result.textContent = 'RIGHT';
       resetButton.classList.remove('hidden');
-      widgetContainer.innerHTML = '';
-      widgetContainer.classList.add('hidden');
     }
 
     function reset() {
       left.classList.remove('hidden');
       right.classList.remove('hidden');
       result.textContent = '';
-      widgetContainer.innerHTML = '';
       widgetContainer.classList.add('hidden');
       resetButton.classList.add('hidden');
     }
