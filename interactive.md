@@ -98,5 +98,3 @@ permalink: /interactive/
     right.addEventListener('keypress', e => { if (e.key === 'Enter') handleRightChoice(); });
   });
 </script>
-
-
