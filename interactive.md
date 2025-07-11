@@ -103,3 +103,6 @@ permalink: /interactive/
     right.addEventListener('keypress', e => { if (e.key === 'Enter') handleRightChoice(); });
   });
 </script>
+
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
