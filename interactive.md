@@ -57,31 +57,17 @@ permalink: /interactive/
     const resetButton = document.getElementById('reset-button');
     const widgetContainer = document.getElementById('widget-container');
 
-    let widgetInitialized = false;
-
     function loadWidget() {
-      widgetContainer.innerHTML =
+      widgetContainer.innerHTML = 
         '<elevenlabs-convai agent-id="agent_01jzkq8v1sf1ctbsswk0xykeq5"></elevenlabs-convai>';
       widgetContainer.classList.remove('hidden');
-
-      if (!widgetInitialized) {
-        const script = document.createElement('script');
-        script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
-        script.async = true;
-        script.onload = () => {
-          widgetInitialized = true;
-          if (window.ElevenLabsConvai?.mountAll) {
-            window.ElevenLabsConvai.mountAll();
-          }
-        };
-        document.body.appendChild(script);
-      } else {
+      
+      // Give the DOM a moment to update, then mount the widget
+      setTimeout(() => {
         if (window.ElevenLabsConvai?.mountAll) {
           window.ElevenLabsConvai.mountAll();
-        } else {
-          console.warn('ElevenLabsConvai not available yet.');
         }
-      }
+      }, 100);
     }
 
     function handleLeftChoice() {
@@ -112,7 +98,7 @@ permalink: /interactive/
     right.addEventListener('click', handleRightChoice);
     resetButton.addEventListener('click', reset);
 
-    // Optional keyboard support
+    // Keyboard support
     left.addEventListener('keypress', e => { if (e.key === 'Enter') handleLeftChoice(); });
     right.addEventListener('keypress', e => { if (e.key === 'Enter') handleRightChoice(); });
   });
