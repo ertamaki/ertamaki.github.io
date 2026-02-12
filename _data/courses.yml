@@ -1,0 +1,13 @@
+- title: "Artificial Intelligence: From Theory to Practice"
+  institution: "MethodsNET Summer School, CEU Vienna"
+  date: "July 2025"
+  description: "Intensive course bridging AI theoretical foundations with practical implementation. Covers AI fundamentals, transformers, LLMs, prompt engineering, API implementation, and real-world applications for research tasks."
+  url: "https://methodsnet.org/course/d01-06pm-artificial-intelligence-theory-and-practice/"
+  featured: true
+
+- title: "MethodsNET Workshop on AI for Political Analysis"
+  institution: "MethodsNET"
+  date: "October 2024"
+  description: "Workshop on applying AI methods to political analysis, covering text analysis, LLM applications, and computational approaches."
+  url: ""
+  featured: false

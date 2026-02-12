@@ -1,0 +1,27 @@
+- title: "Chrono-Sampling"
+  description: "A generative AI framework that simulates public opinion from the past. Combines time-gating and Clio Personas to capture how attitudes shift across historical periods. Awarded Best Early Career Paper at MethodsNET 2024."
+  tags: ["Generative AI", "LLMs", "Public Opinion"]
+  url: "https://osf.io/preprints/psyarxiv/49ags_v1"
+  github: ""
+  featured: true
+
+- title: "Zeus Protocol"
+  description: "Automating experimental social science — from idea generation to synthetic pre-testing — by orchestrating a pipeline of LLMs that generate, peer-review, and simulate survey experiments."
+  tags: ["LLMs", "Automation", "Research"]
+  url: ""
+  github: ""
+  featured: true
+
+- title: "RAG Parliamentary Chatbot"
+  description: "A retrieval-augmented generation chatbot for the Hungarian Parliament, built during the HUN-REN AI1Science Hackathon."
+  tags: ["RAG", "NLP", "LLMs"]
+  url: ""
+  github: ""
+  featured: true
+
+- title: "Generative Counterfactual Framework"
+  description: "Harnessing AI to explore alternative realities in public opinion research. Uses LLMs to estimate treatment effects through generative counterfactuals."
+  tags: ["Causal Inference", "Generative AI", "LLMs"]
+  url: "https://drive.google.com/file/d/1AwGpOQKDsPK90lvMPKso6xCkv_DE3aqe/view"
+  github: ""
+  featured: true

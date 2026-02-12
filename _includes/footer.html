@@ -1,40 +1,30 @@
-<footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__name">Eduardo Ryo Tamaki</div>
+    <div class="footer__affiliation">Data Scientist & Gen AI Engineer</div>
 
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
-      {% endif %}
+    <div class="footer__social">
+      {% for link in site.data.social %}
+        <a href="{{ link.url }}" class="social-icon" aria-label="{{ link.name }}" target="_blank" rel="noopener">
+          {% if link.icon == 'email' %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+          {% elsif link.icon == 'github' %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          {% elsif link.icon == 'scholar' %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
+          {% elsif link.icon == 'orcid' %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-3.956-3.722h-2.363z"/></svg>
+          {% elsif link.icon == 'twitter' %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
 
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-      </p>
-      <!-- Please don't remove this, keep my open source work credited :) -->
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Theme by
-        <a href="https://beautifuljekyll.com">beautiful-jekyll</a>
-      </p>{% endunless %}
-      </div>
+    <hr class="footer__divider">
+
+    <div class="footer__copyright">
+      &copy; {{ 'now' | date: "%Y" }} Eduardo Ryo Tamaki
     </div>
   </div>
 </footer>

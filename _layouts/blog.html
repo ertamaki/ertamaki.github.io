@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="page-content">
+  <div class="container--prose">
+    <div class="section-header">
+      <h1 class="section-header__title">{{ page.title }}</h1>
+      <hr class="section-header__rule">
+      {% if page.subtitle %}
+        <p class="section-header__subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+
+    <div class="blog-list">
+      {% assign posts = site.posts | sort: 'date' | reverse %}
+      {% for post in posts %}
+        <div class="blog-item">
+          <div class="blog-item__date">{{ post.date | date: "%b %Y" }}</div>
+          <div class="blog-item__content">
+            <a href="{{ post.url | relative_url }}" class="blog-item__title">{{ post.title }}</a>
+            <p class="blog-item__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

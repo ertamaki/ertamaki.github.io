@@ -1,0 +1,28 @@
+---
+layout: default
+title: Courses
+description: AI and data science courses taught by Eduardo Tamaki
+---
+
+<div class="page-content">
+  <div class="container--prose">
+    <div class="section-header">
+      <h1 class="section-header__title">Courses</h1>
+      <hr class="section-header__rule">
+      <p class="section-header__subtitle">AI and data science courses I teach and have taught.</p>
+    </div>
+
+    {% for course in site.data.courses %}
+    <div class="course-item">
+      <h4 class="course-item__title">{{ course.title }}</h4>
+      <p class="course-item__meta">{{ course.institution }} &middot; {{ course.date }}</p>
+      <p class="course-item__desc">{{ course.description }}</p>
+      {% if course.url != "" %}
+      <div class="course-item__links">
+        <a href="{{ course.url }}" class="btn--ghost btn" target="_blank" rel="noopener">Course Page</a>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

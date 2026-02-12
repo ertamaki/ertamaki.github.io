@@ -1,0 +1,40 @@
+---
+layout: default
+title: Projects
+description: Selected projects in generative AI, LLMs, and data science
+---
+
+<div class="page-content">
+  <div class="container--wide">
+    <div class="section-header">
+      <h1 class="section-header__title">Projects</h1>
+      <hr class="section-header__rule">
+      <p class="section-header__subtitle">Selected work in generative AI, LLMs, and data science.</p>
+    </div>
+
+    <div class="pub-list">
+      {% for project in site.data.projects %}
+      <div class="pub-item">
+        <div class="pub-item__year">
+          {% for tag in project.tags limit:1 %}{{ tag }}{% endfor %}
+        </div>
+        <div class="pub-item__content">
+          {% if project.url != "" %}
+            <a href="{{ project.url }}" class="pub-item__title" target="_blank" rel="noopener">{{ project.title }}</a>
+          {% else %}
+            <span class="pub-item__title">{{ project.title }}</span>
+          {% endif %}
+          <p class="pub-item__authors">{{ project.description }}</p>
+          <div class="pub-item__links">
+            {% for tag in project.tags %}
+              <span class="post-tag">{{ tag }}</span>
+            {% endfor %}
+            {% if project.url != "" %}<a href="{{ project.url }}" class="pub-link" target="_blank" rel="noopener">View</a>{% endif %}
+            {% if project.github != "" %}<a href="{{ project.github }}" class="pub-link" target="_blank" rel="noopener">GitHub</a>{% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

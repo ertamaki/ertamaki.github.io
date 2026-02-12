@@ -1,25 +1,45 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.subtitle %}{{ page.subtitle }}{% else %}Eduardo R. Tamaki — Data Scientist & Gen AI Engineer{% endif %}">
+  <meta name="author" content="{{ site.author }}">
 
-<div class="intro-header"></div>
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Eduardo R. Tamaki — Data Scientist & Gen AI Engineer{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.cover-img %}<meta property="og:image" content="{{ page.cover-img | absolute_url }}">{% endif %}
 
-<div role="main" class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-  {% if page.before-content %}
-    <div class="before-content">
-      {% for file in page.before-content %}
-        {% include {{ file }} %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@er_tamaki">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+
+  {% include nav.html %}
 
   {{ content }}
 
-  {% if page.after-content %}
-    <div class="after-content">
-      {% for file in page.after-content %}
-        {% include {{ file }} %}
-      {% endfor %}
-    </div>
-  {% endif %}
-</div>
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
