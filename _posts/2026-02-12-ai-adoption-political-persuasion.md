@@ -35,7 +35,7 @@ Gabriel S. Lenz later confirmed this with voting behavior: people pick a politic
 
 **This maps directly to organizational AI adoption.**
 
-Research from Gartner shows that when employees are genuinely invested in change, the likelihood of success increases by 30%.[^3] But here's the key insight: it's not the participation itself that matters—it's the **elite signal** that participation sends.
+Research from McKinsey shows that when employees are genuinely invested in change, the likelihood of success increases by 30%.[^3] But here's the key insight: it's not the participation itself that matters—it's the **elite signal** that participation sends.
 
 When a VP champions an AI tool, that's an elite cue. When she *includes* teams in the evaluation, that's an even stronger signal: "This matters, and your judgment matters."
 
@@ -61,7 +61,7 @@ Your facts bounce off identity. Political campaigns know this. That's why they d
 
 Everett Rogers' "Diffusion of Innovations" framework identified five factors that drive technology adoption. The most underrated? **Observability**—whether results are visible to others.[^7]
 
-McKinsey research shows that 70% of digital transformations fail to deliver expected outcomes.[^8] Yet if the *right* people visibly adopt it, the bandwagon accelerates anyway.
+McKinsey (BCG and others) research shows that 70% of digital transformations fail to deliver expected outcomes.[^8] Yet if the *right* people visibly adopt it, the bandwagon accelerates anyway.
 
 Research on organizational behavior shows that social influence is a dominant factor in technology adoption—people adopt technologies that others in their peer group have already adopted and perceive as beneficial, independent of the technology's actual performance.[^9]
 
@@ -123,7 +123,7 @@ The better news? Your competitors probably haven't read Zaller either.
 
 [^2]: Lenz, Gabriel S. *Follow the Leader? How Voters Respond to Politicians' Policies and Performance*. University of Chicago Press, 2012.
 
-[^3]: "72 Change Management Statistics," MoonCamp (aggregates Gartner/McKinsey research), 2026. https://mooncamp.com/blog/change-management-statistics
+[^3]: "72 Change Management Statistics," MoonCamp (aggregates Gartner/McKinsey research), 2024. https://mooncamp.com/blog/change-management-statistics
 
 [^4]: Kahan, Dan M. "The Politically Motivated Reasoning Paradigm." *SSRN*, 2017. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2973067
 
